@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wgh@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Yahya's Portfolio</div>
+            <div class="right">
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#mywork">My Works</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="firstSection" id="home">
+
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Mohd Yahya Alam</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="yahyapic.jpeg">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection" id="about">
+            <h1>About me</h1>
+            <div class="info">
+                <p>Hello, I'm Mohammad Yahya Sameer Alam, a 23-year-old engineer based in India. I specialize in B.tech
+                    i am goal oriented and ambitious engineering student with a passion for obtaining precise results
+                    alongside my team.
+                    I am eager to learn,observe,be proactive,build relationships,stay organized and have a open mind
+                    towards the goals i set.
+                    Seeking an entry level position in the engineering industry to pursue a career as a Software
+                    engineer to improve my skillsets.</p>
+            </div>
+
+            <div class="sub-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UK</span><br>Designing Web/App Interface</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/IOS apps</li>
+                    <li><span>SQL</span><br>Database management</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Projects">
+                <ul>
+                    <li><span>Web Development</span><br>Created a calculator using HTML, CSS and JavaScript</li>
+                    <li><span>IOS Development</span><br>Created a weather forecast app using Swift UI</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>Bachelor of Technology Computer Science Engineering </span><br>Integral University,Lucknow
+                        (09/2021-present) CGPI-7.20</li>
+                    <li><span>Senior Secondary</span><br>National Institute of Open Schooling (06/2021) 75.6%</li>
+                    <li><span>Secondary</span><br>The Millennium School,Lucknow (06/2017) CGPI-08.4</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="ThirdSection" id="mywork">
+            <h1> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="calculator.jpg">
+                    <div class="layer">
+                        <h3>Calculator Clone</h3>
+                        <p>iOS-inspired calculator clone! HTML, CSS and JavaScript came together to create the following
+                            design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ios development.png">
+                    <div class="layer">
+                        <h3>Weather Forcast App</h3>
+                        <p>Weather forecast app with both day and night modes, created using SwiftUI in iOS development
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="netflix.png">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>Netflix clone! HTML, CSS and JavaScript came together to create the following design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="contact" id="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>yahya.alam0797@gmail.com</p>
+                    <p>+91 6386469689</p>
+                    <div class="social">
+                        <a href="https://github.com/Yahyaalam2022"><i class="ri-github-fill"></i></a>
+                        <a
+                            href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHWgkTpllcljCbDdGGCxdfRBPvmfFchmscsglhlJzTllxvgkchbNjhhrfLMVFhHxVPhl"><i
+                                class="ri-mail-fill"></i></a>
+                    </div>
+                    <a href="yahya CV.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Yahya. Made by Yahya Sameer Alam </p>
+            </div>
+        </section>
+
+
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    // Typed.js initialization
+    var typed = new Typed('#element', {
+        strings: [ 'IOS Developer','Web Developer'],
+        typeSpeed: 50,
+    });
+
+    // Tab functionality
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {  // Fixed function name to match HTML onclick
+        // Remove all active classes first
+        for(let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        // Add active classes to selected tab
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    // Navigation functionality
+    const hamburger = document.querySelector('.hamburger');
+    const navbar = document.querySelector('.navbar');
+
+    // Hamburger menu toggle
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navbar.classList.toggle('active');
+    });
+
+    // Close menu when clicking navigation links
+    document.querySelectorAll('.navbar a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navbar.classList.remove('active');
+        });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!navbar.contains(e.target) && !hamburger.contains(e.target)) {
+            hamburger.classList.remove('active');
+            navbar.classList.remove('active');
+        }
+    });
+</script>
+
+</body>
+
+</html>
